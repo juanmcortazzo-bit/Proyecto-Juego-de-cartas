@@ -1,0 +1,14 @@
+C:\Users\juanm\OneDrive\Desktop\proyectos\mauroProyecto\obj\Debug\net10.0\mauroProyecto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\juanm\OneDrive\Desktop\proyectos\mauroProyecto\obj\Debug\net10.0\mauroProyecto.AssemblyInfoInputs.cache
+C:\Users\juanm\OneDrive\Desktop\proyectos\mauroProyecto\obj\Debug\net10.0\mauroProyecto.AssemblyInfo.cs
+C:\Users\juanm\OneDrive\Desktop\proyectos\mauroProyecto\obj\Debug\net10.0\mauroProyecto.csproj.CoreCompileInputs.cache
+C:\Users\juanm\OneDrive\Desktop\proyectos\mauroProyecto\bin\Debug\net10.0\mauroProyecto.exe
+C:\Users\juanm\OneDrive\Desktop\proyectos\mauroProyecto\bin\Debug\net10.0\mauroProyecto.deps.json
+C:\Users\juanm\OneDrive\Desktop\proyectos\mauroProyecto\bin\Debug\net10.0\mauroProyecto.runtimeconfig.json
+C:\Users\juanm\OneDrive\Desktop\proyectos\mauroProyecto\bin\Debug\net10.0\mauroProyecto.dll
+C:\Users\juanm\OneDrive\Desktop\proyectos\mauroProyecto\bin\Debug\net10.0\mauroProyecto.pdb
+C:\Users\juanm\OneDrive\Desktop\proyectos\mauroProyecto\obj\Debug\net10.0\mauroProyecto.dll
+C:\Users\juanm\OneDrive\Desktop\proyectos\mauroProyecto\obj\Debug\net10.0\refint\mauroProyecto.dll
+C:\Users\juanm\OneDrive\Desktop\proyectos\mauroProyecto\obj\Debug\net10.0\mauroProyecto.pdb
+C:\Users\juanm\OneDrive\Desktop\proyectos\mauroProyecto\obj\Debug\net10.0\mauroProyecto.genruntimeconfig.cache
+C:\Users\juanm\OneDrive\Desktop\proyectos\mauroProyecto\obj\Debug\net10.0\ref\mauroProyecto.dll
