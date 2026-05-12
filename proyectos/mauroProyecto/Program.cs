@@ -3,23 +3,45 @@ class Program{
 static void Main()
 {
     //Jugadores (n,hp)
-Personaje jugador = new Personaje("Peter", 100);
+Personaje jugador1 = new Personaje("Peter", 100);
+Personaje jugador2 = new Personaje("Julian", 100);
 
     //Cartas (n,hp,def,atk)
-Carta carta1 = new Carta("Carta1", 10, 10, 10);
-Carta carta2 = new Carta("Carta2", 20, 20, 20);
+Carta c1 = new Carta("Espadachín","Guerrero", 80, 30, 70);
+Carta c2 = new Carta("Mago","Magica", 55, 10, 100);
 
-    //Consola
-Console.WriteLine("Jugador " + jugador.nombre + "\nHP: " + jugador.vida);
-Console.WriteLine(jugador.nombre);
+jugador1.baraja.Add(c1);
+jugador2.baraja.Add(c2);
 
+    // Mostrar jugador 1
+        Console.WriteLine("=== JUGADOR 1 ===");
 
+        Console.WriteLine("Nombre: " + jugador1.nombre);
 
+        Console.WriteLine("Vida: " + jugador1.vida);
 
+        Console.WriteLine("\nCartas:");
 
+        foreach(Carta carta in jugador1.baraja)
+        {
+            Console.WriteLine(carta.nombre);
+        }
 
+     // Mostrar jugador 2
+        Console.WriteLine("\n=== JUGADOR 2 ===");
 
+        Console.WriteLine("Nombre: " + jugador2.nombre);
 
+        Console.WriteLine("Vida: " + jugador2.vida);
+
+        Console.WriteLine("\nCartas:");
+
+        foreach(Carta carta in jugador2.baraja)
+        {
+            Console.WriteLine(carta.nombre);
+        }
+    
+        jugador1.baraja[0].Atacar(jugador2.baraja[0]);
 
 }
-}
+    }  
