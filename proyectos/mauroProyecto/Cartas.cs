@@ -15,17 +15,29 @@ class Carta
         this.ataque = atk;
     }
 
-public void Atacar(Carta objetivo)
+public void Atacar(Carta objetivo, Personaje personaje)
     {
         int daño = this.ataque - objetivo.defensa;
 
         if(daño < 0)
         {
+            
             daño = 0;
+            
+
         }
+        
+
         objetivo.vida -= daño;
+
+        if (objetivo.vida <= 0)
+        {
+            personaje.vida -= daño;
+        }
+
         Console.WriteLine(this.nombre + " hizo " + daño + " de daño a " + objetivo.nombre);
         Console.WriteLine("Vida restante de " + objetivo.nombre + ": " + objetivo.vida);
+        Console.WriteLine("Vida restante de " + personaje.nombre + ": " + personaje.vida);
 
 
     }
